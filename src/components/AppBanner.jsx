@@ -5,17 +5,19 @@ const AppBanner = () => {
     <div>
       <section class="relative overflow-x-hidden bg-img">
         <div class="mx-auto">
-          <div class="block lg:flex items-center w-[60%] lg:w-[80%] mx-auto">
+          <div class="block lg:flex items-center w-[80%] sm:w-[60%] lg:w-[80%] mx-auto">
 
             <div class="w-full lg:w-1/2">
               <div class="py-4 lg:py-10">
                 <h1 class="text-4xl lg:text-5xl font-bold font-heading text-white my-16 text-center lg:text-left"> OUR APPS </h1>
                 <h2 class="text-lg font-heading text-white my-5 text-center lg:text-left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim volutpat, urna auctor sed. </h2>
-                <ul className='ml-5 my-10 justify-center'>
-                    <li className='list-disc text-white text-lg'> Get offline access </li>
-                    <li className='list-disc text-white text-lg'> Easy Download options </li>
-                    <li className='list-disc text-white text-lg'> Instant notifications </li>
+           <div className='w-auto xs:w-[70%] sm:w-[60%] md:w-[50%] lg:w-full mx-auto lg:mx-0'>
+           <ul className='my-10 justify-center'>
+                    <li className='text-white text-lg'> ● &nbsp; Get offline access </li>
+                    <li className='text-white text-lg'> ● &nbsp; Easy Download options </li>
+                    <li className='text-white text-lg'> ● &nbsp; Instant notifications </li>
                 </ul>
+           </div>
                 {/* <a class="inline-block bg-[#6D8DA4] hover:bg-[#5f7c91] text-white font-bold font-heading py-4 px-20 rounded-md uppercase transition duration-200" href="#" >More</a> */}
             <div className='hidden lg:block'>
             <div className='flex my-16'>
@@ -31,9 +33,9 @@ const AppBanner = () => {
            <div class="">
               <img class="" src="./images/banner.png" alt="banner" />
            </div>
-           <div className='block md:flex my-16 lg:hidden justify-center'>
-                    <img src="./images/gp.png" alt="img" className='mx-auto my-5'/>
-                    <img src="./images/as.png" alt="img" className='mx-auto my-5'/>
+           <div className='block md:flex my-16 lg:hidden justify-center mx-auto w-full md:w-[80%]'>
+                    <img src="./images/gp.png" alt="img" className='mx-auto my-5 md:mr-2'/>
+                    <img src="./images/as.png" alt="img" className='mx-auto my-5 md:ml-2'/>
                 </div>
          </div>
             
