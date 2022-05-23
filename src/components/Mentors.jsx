@@ -2,7 +2,7 @@ import React from 'react'
 
 const Mentors = () => {
   return (
-    <div className='mb-20'>
+    <div className='mb-20 pb-5 border-b-2'>
       <h2 className='text-center text-3xl sm:text-4xl lg:text-5xl font-bold font-heading text-[#061357] my-16 lg:my-20'> Our Mentors </h2>
         {/* <div class="border-2 gap-2 grid grid-cols-1 md:grid-cols-5 w-full lg:w-[90%] mx-auto">
             <div class="border-2"> <img src="./images/1m.png" alt="img" className='w-full' /></div>

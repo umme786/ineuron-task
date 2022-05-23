@@ -1,0 +1,23 @@
+{
+    "counts": [
+        {
+            "id": "001",
+            "label": "Students enrolled",
+            "number": "400000+",
+            "duration": "1"
+        },
+        {
+            "id": "002",
+            "label": "Successful transition",
+            "number": "10000+",
+            "duration": "2"
+        },
+        {
+            "id": "003",
+            "label": "Different courses",
+            "number": "300+",
+            "duration": "2"
+        }
+     
+    ]
+}
