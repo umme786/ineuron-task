@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
+ <div className='bg-white'>
     {/* <div className='w-[80%] mx-auto font-montserrat text-justify'> */}
-    <div className='container mx-auto font-montserrat px-10'>        
+    <div className='container mx-auto font-montserrat px-10 py-10 mb-10'>        
     <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] my-10 font-inter'> About Ineuron </h2>
 
     <ul className='pl-2 sm:pl-7 text-justify'>

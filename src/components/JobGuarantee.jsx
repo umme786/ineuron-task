@@ -2,8 +2,9 @@ import React from 'react'
 
 const JobGuarantee = () => {
   return (
-    <div className='w-[80%] mx-auto font-montserrat text-justify'>
-    <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] mb-10 font-inter'> Job Guarantee </h2>
+ <div className='bg-white'>
+    <div className='w-[80%] mx-auto font-montserrat text-justify pb-10 mb-10'>
+    <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] py-16 font-inter'> Job Guarantee </h2>
     <p className='mp-2 text-sm sm:text-base font-medium text-gray-600'> Everybody is eligible to take the course who would like to learn, explore, grasp and experiment with Artificial intelligence(Machine learning, Deep Learning, Computer vision, Natural language processing, big data, Data analytics). Regardless of their background, Artificial intelligence is a booming technology making its way in every industry. </p>
     <div className='font-medium'>
      <div className='mt-10 mb-6'>
@@ -67,6 +68,7 @@ const JobGuarantee = () => {
     </div>
 
     </div>
+</div>
 </div>
   )
 }

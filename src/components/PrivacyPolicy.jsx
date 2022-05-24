@@ -2,16 +2,12 @@ import React from 'react'
 
 const PrivacyPolicy = () => {
   return (
-    <div>
-       <div>
-          <div className='w-[80%] mx-auto font-montserrat text-justify'>
-    <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] mb-10 font-inter'> Privacy Policy </h2>
+ <div className='bg-white'>
+          <div className='w-[80%] mx-auto font-montserrat text-justify pb-10 mb-10'>
+    <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] py-16 font-inter'> Privacy Policy </h2>
     <div className='font-medium'>
-     <div className='mt-10 mb-6'>
-     </div>
-
-     <div className='mt-10 mb-6'>
-     <p className='py-1  text-sm sm:text-base text-gray-600'> This privacy policy is to ensure you that your data is not being utilised for any other purpose apart from our internal records </p>
+     <div className='pb-6'>
+     <p className='py-1 text-sm sm:text-base text-gray-600'> This privacy policy is to ensure you that your data is not being utilised for any other purpose apart from our internal records </p>
        <ul className='pb-2 pl-4 text-gray-600'> 
            <li className='pl-2 py-1.5 text-sm sm:text-base list-decimal'> We only collect your name, number, and email ID to track our existing students for internal reasons. </li>
            <li className='pl-2 py-1.5 text-sm sm:text-base list-decimal'> We don't sell or share your data outside the organisation since we respect the integrity and privacy of our users. </li>
@@ -28,7 +24,6 @@ const PrivacyPolicy = () => {
 
     </div>
 </div>
-    </div>
     </div>
   )
 }

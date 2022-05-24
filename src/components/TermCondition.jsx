@@ -2,12 +2,12 @@ import React from 'react'
 
 const TermCondition = () => {
   return (
-    <div>
-          <div className='w-[80%] mx-auto font-montserrat text-justify'>
+ <div className='bg-white'>
+          <div className='w-[80%] mx-auto font-montserrat text-justify pb-10 mb-10'>
           {/* <div className='container mx-auto font-montserrat text-justify px-6'> */}        
-    <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] mb-10 font-inter'> Terms and Conditions of Use </h2>
+    <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] py-16 font-inter'> Terms and Conditions of Use </h2>
     <div className='font-medium'>
-     <div className='mt-10 mb-6'>
+     <div className='mb-6'>
        <h3 className='sm:text-2xl font-bold text-[#061357] mb-6 p1-2'> 1. Terms </h3>
        <p className='py-1  text-sm sm:text-base text-gray-600'> By accessing this website, you agree to be bound by these website Terms and Conditions of Use, applicable laws and regulations and their compliance. If you disagree with any stated terms and conditions, you are prohibited from using or accessing this site. In addition, the materials contained in this site are secured by relevant copyright and trademark law. </p>
      </div>

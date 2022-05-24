@@ -2,67 +2,21 @@ import React, { useState } from 'react';
 import { Data } from './Data';
 import styled from 'styled-components';
 import { IconContext } from 'react-icons';
-import { FiPlus, FiMinus } from 'react-icons/fi';
+import { FiArrowDown, FiMinus } from 'react-icons/fi';
 
 const AccordionSection = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  height: 500px;
-  background: #fff;
 `;
-
 const Container = styled.div`
-  position: absolute;
-  top: 30%;
-  box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
 `;
-
 const Wrap = styled.div`
-  background: #272727;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  text-align: center;
-  cursor: pointer;
-
-  h1 {
-    padding: 2rem;
-    font-size: 2rem;
-  }
-
-  span {
-    margin-right: 1.5rem;
-  }
 `;
-
 const Dropdown = styled.div`
-  background: #1c1c1c;
-  color: #00ffb9;
-  width: 100%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid #00ffb9;
-  border-top: 1px solid #00ffb9;
-
-  p {
-    font-size: 2rem;
-  }
 `;
-
 const Accordion = () => {
   const [clicked, setClicked] = useState(false);
 
   const toggle = index => {
     if (clicked === index) {
-      //if clicked question is already active, then close it
       return setClicked(null);
     }
 
@@ -70,19 +24,20 @@ const Accordion = () => {
   };
 
   return (
-    <IconContext.Provider value={{ color: '#00FFB9', size: '25px' }}>
-      <AccordionSection>
-        <Container>
+    <IconContext.Provider value={{ color: '#440244', size: '25px' }}>
+      <AccordionSection className='flex items-center justify-center my-10 py-10 bg-[#ebecf8]'>
+        <Container className='w-[80%] mx-auto'>
+          <h2 className='text-center text-4xl font-bold my-10 text-[#061357] font-inter'> Frequently Asked Questions </h2>
           {Data.map((item, index) => {
             return (
               <>
-                <Wrap onClick={() => toggle(index)} key={index} className="border-2">
-                  <h1 className=''>{item.question}</h1>
-                  <span>{clicked === index ? <FiMinus /> : <FiPlus />}</span>
+                <Wrap onClick={() => toggle(index)} key={index} className="border-2 border-purple-300 rounded-md bg-white text-[#061357] flex justify-between items-center w-full text-center cursor-pointer my-3 drop-shadow-lg">
+                  <h1 className='p-5 text-xl'>{item.question}</h1>
+                  <span className='mr-4'>{clicked === index ? <FiMinus /> : <FiArrowDown />}</span>
                 </Wrap>
                 {clicked === index ? (
-                  <Dropdown>
-                    <p>{item.answer}</p>
+                  <Dropdown className='bg-white text-gray-500 rounded-md flex items-center justify-center'>
+                    <p className='p-5 text-lg'>{item.answer}</p>
                   </Dropdown>
                 ) : null}
               </>

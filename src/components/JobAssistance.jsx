@@ -2,8 +2,9 @@ import React from 'react'
 
 const JobAssistance = () => {
   return (
-    <div className='w-[80%] mx-auto font-montserrat text-justify'>
-        <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] mb-10 font-inter'> Job Assistance </h2>
+ <div className='bg-white'>
+      <div className='w-[80%] mx-auto font-montserrat text-justify pb-10 mb-10'>
+        <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] font-inter py-16'> Job Assistance </h2>
         <p className='mp-2 text-sm sm:text-base font-medium text-gray-600'> Anyone willing to learn and passionately experiment with Data Analytics is eligible to take the Data Analytics course. Every industry involves the use of Data Analytics so it's a booming area. </p>
         <div className='font-medium'>
          <div className='mt-10 mb-6'>
@@ -36,6 +37,7 @@ const JobAssistance = () => {
         </div>
         </div>
     </div>
+ </div>
   )
 }
 
