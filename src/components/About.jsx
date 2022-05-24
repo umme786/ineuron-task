@@ -19,37 +19,37 @@ const About = () => {
       </li>
     </ul>
 
-    <div class="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-5 container mx-auto text-justify">
-        <div class="bg-[#061357] overflow-hidden shadow-lg md:w-full mx-auto border-2 px-2 sm:px-6 py-10 rounded-md">
-          <div class="px-2 sm:px-6 py-4">
-          <div class="pb-4">
-            <div class="font-bold text-md mb-2 text-white text-2xl font-inter"> Our Story </div>  
+    <div className="py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-5 container mx-auto text-justify">
+        <div className="bg-[#061357] overflow-hidden shadow-lg md:w-full mx-auto border-2 px-2 sm:px-6 py-10 rounded-md">
+          <div className="px-2 sm:px-6 py-4">
+          <div className="pb-4">
+            <div className="font-bold text-md mb-2 text-white text-2xl font-inter"> Our Story </div>  
           </div>
-            <p class="text-white font-normal text-sm sm:text-base font-montserrat">
+            <p className="text-white font-normal text-sm sm:text-base font-montserrat">
             Industry experts in data science, machine learning, and deep learning with multiple years of corporate as well as teaching experience.
             </p>
           </div>
         </div>
 
-        <div class="bg-[#061357] overflow-hidden shadow-lg md:w-full mx-auto border-2 px-2 sm:px-6 py-10 rounded-md">
-          <div class="px-2 sm:px-6 py-4">
-          <div class="pb-4">
-            <div class="font-bold text-md mb-2 text-white text-2xl font-inter"> Who We Are </div>  
+        <div className="bg-[#061357] overflow-hidden shadow-lg md:w-full mx-auto border-2 px-2 sm:px-6 py-10 rounded-md">
+          <div className="px-2 sm:px-6 py-4">
+          <div className="pb-4">
+            <div className="font-bold text-md mb-2 text-white text-2xl font-inter"> Who We Are </div>  
             </div>
-            <p class="text-white font-normal text-sm sm:text-base font-montserrat">
+            <p className="text-white font-normal text-sm sm:text-base font-montserrat">
             Our vision is to bridge the gap between career expectations and reality via innovative teaching approaches
             </p>
           </div>
         </div>
       </div>
 
-      <div class="py-10 grid grid-cols-1 gap-5 container mx-auto text-justify">
-        <div class="bg-[#061357] overflow-hidden shadow-lg md:w-full mx-auto border-2 px-2 sm:px-6 py-10 rounded-md">
-          <div class="px-6 py-4">
-          <div class="pb-4">
-            <div class="font-bold text-md mb-2 text-white text-2xl font-inter"> <img src="./images/mission.png" alt="img" className='mx-auto'/> </div>  
+      <div className="py-10 grid grid-cols-1 gap-5 container mx-auto text-justify">
+        <div className="bg-[#061357] overflow-hidden shadow-lg md:w-full mx-auto border-2 px-2 sm:px-6 py-10 rounded-md">
+          <div className="px-6 py-4">
+          <div className="pb-4">
+            <div className="font-bold text-md mb-2 text-white text-2xl font-inter"> <img src="./images/mission.png" alt="img" className='mx-auto'/> </div>  
           </div>
-            <p class="text-white font-normal text-sm sm:text-base font-montserrat">
+            <p className="text-white font-normal text-sm sm:text-base font-montserrat">
             Our mission is to provide quality education throughout all sets of the economy which is why we did not want the price to be a factor for which individuals would hesitate in attaining education in the respective domains.We believe in growing together which is why we also have our learning community where students can raise discussion related to technical questions and find the solutions to their problems.
             </p>
           </div>

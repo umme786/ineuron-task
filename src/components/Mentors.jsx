@@ -4,36 +4,36 @@ const Mentors = () => {
   return (
     <div className='mb-20 pb-5 border-b-2'>
       <h2 className='text-center text-3xl sm:text-4xl lg:text-5xl font-bold font-heading text-[#061357] my-16 lg:my-20'> Our Mentors </h2>
-        {/* <div class="border-2 gap-2 grid grid-cols-1 md:grid-cols-5 w-full lg:w-[90%] mx-auto">
-            <div class="border-2"> <img src="./images/1m.png" alt="img" className='w-full' /></div>
-            <div class="border-2"> <img src="./images/2m.png" alt="img" className='w-full' /> <h2 className=''> Krish Naik </h2></div>
-            <div class="border-2"> <img src="./images/3m.png" alt="img" className='w-full' /></div>
-            <div class="border-2"> <img src="./images/4.png" alt="img" className='w-full' /></div>
-            <div class="border-2"> <img src="./images/5.png" alt="img" className='w-full' /></div>
+        {/* <div className="border-2 gap-2 grid grid-cols-1 md:grid-cols-5 w-full lg:w-[90%] mx-auto">
+            <div className="border-2"> <img src="./images/1m.png" alt="img" className='w-full' /></div>
+            <div className="border-2"> <img src="./images/2m.png" alt="img" className='w-full' /> <h2 className=''> Krish Naik </h2></div>
+            <div className="border-2"> <img src="./images/3m.png" alt="img" className='w-full' /></div>
+            <div className="border-2"> <img src="./images/4.png" alt="img" className='w-full' /></div>
+            <div className="border-2"> <img src="./images/5.png" alt="img" className='w-full' /></div>
             </div>
-        <div class="border-2 gap-2 grid grid-cols-1 md:grid-cols-6 w-full lg:w-[90%] mx-auto">
-            <div class="border-2"> <img src="./images/6.png" alt="img" className='w-full' /> </div>
-            <div class="border-2"> <img src="./images/7.png" alt="img" className='w-full' /> </div>
-            <div class="border-2"> <img src="./images/8.png" alt="img" className='w-full' /> </div>
-            <div class="border-2"> <img src="./images/9.png" alt="img" className='w-full' /> </div>
-            <div class="border-2"> <img src="./images/10.png" alt="img" className='w-fu' /> </div>
-            <div class="border-2"> <img src="./images/11.png" alt="img" className='w-full' /> </div>
+        <div className="border-2 gap-2 grid grid-cols-1 md:grid-cols-6 w-full lg:w-[90%] mx-auto">
+            <div className="border-2"> <img src="./images/6.png" alt="img" className='w-full' /> </div>
+            <div className="border-2"> <img src="./images/7.png" alt="img" className='w-full' /> </div>
+            <div className="border-2"> <img src="./images/8.png" alt="img" className='w-full' /> </div>
+            <div className="border-2"> <img src="./images/9.png" alt="img" className='w-full' /> </div>
+            <div className="border-2"> <img src="./images/10.png" alt="img" className='w-fu' /> </div>
+            <div className="border-2"> <img src="./images/11.png" alt="img" className='w-full' /> </div>
         </div>
-        <div class="border-2 gap-2 grid grid-cols-1 md:grid-cols-5 w-full lg:w-[90%] mx-auto">
-            <div class="border-2"> <img src="./images/6+.png" alt="img" className='w-full' /> </div>
+        <div className="border-2 gap-2 grid grid-cols-1 md:grid-cols-5 w-full lg:w-[90%] mx-auto">
+            <div className="border-2"> <img src="./images/6+.png" alt="img" className='w-full' /> </div>
         </div> */}
 
             <div className="hidden md:flex w-[50%] md:w-[85%] mx-auto">            
-                    <div class="block ">
-                        <div class="mr-2 ml-2 mb-4"> <img src="./images/1m.png" alt="img" className='w-full' /> </div>
-                        <div class="mr-2 ml-2 mb-4"> <img src="./images/6.png" alt="img" className='w-full' /> </div>
-                        <div class="mr-2 ml-2 mb-4"> <img src="./images/6+.png" alt="img" className='w-full' /> </div>
+                    <div className="block ">
+                        <div className="mr-2 ml-2 mb-4"> <img src="./images/1m.png" alt="img" className='w-full' /> </div>
+                        <div className="mr-2 ml-2 mb-4"> <img src="./images/6.png" alt="img" className='w-full' /> </div>
+                        <div className="mr-2 ml-2 mb-4"> <img src="./images/6+.png" alt="img" className='w-full' /> </div>
                     </div>
                 
             {/* ----------------------for desktop----------------------- */}
                 <div className="block md:flex">
-                    <div class="">
-                        <div class="mr-2 ml-2 mb-4 relative"> <img src="./images/2m.png" alt="img" className='w-full' />
+                    <div className="">
+                        <div className="mr-2 ml-2 mb-4 relative"> <img src="./images/2m.png" alt="img" className='w-full' />
                             <div className='items-center absolute bottom-0 bg-[#7443DE] justify-between flex w-full p-1 lg:p-2 hover:cursor-pointer'> 
                             <h2 className='text-white text-sm md:text-[13px] lg:text-sm'> Krish Naik </h2> 
                                 <div className='flex'> 
@@ -42,24 +42,24 @@ const Mentors = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="mr-2 ml-2 mb-4"> <img src="./images/7.png" alt="img" className='w-full' /> </div>
+                        <div className="mr-2 ml-2 mb-4"> <img src="./images/7.png" alt="img" className='w-full' /> </div>
                     </div>
-                    <div class="">
-                        <div class="mr-2 ml-2 mb-4"> <img src="./images/3m.png" alt="img" className='w-full' /> </div>
-                        <div class="mr-2 ml-2 mb-4"> <img src="./images/8.png" alt="img" className='w-full' /> </div>
+                    <div className="">
+                        <div className="mr-2 ml-2 mb-4"> <img src="./images/3m.png" alt="img" className='w-full' /> </div>
+                        <div className="mr-2 ml-2 mb-4"> <img src="./images/8.png" alt="img" className='w-full' /> </div>
                     </div>
-                    <div class="">
-                        <div class="mr-2 ml-2 mb-4"> <img src="./images/4.png" alt="img" className='w-full' /> </div>
-                        <div class="mr-2 ml-2 flex"> 
+                    <div className="">
+                        <div className="mr-2 ml-2 mb-4"> <img src="./images/4.png" alt="img" className='w-full' /> </div>
+                        <div className="mr-2 ml-2 flex"> 
                             <div className='h-full w-[80%]'> <img src="./images/9.png" alt="img" className="" /> </div> 
                             <div className='h-full w-[24%] xl:w-[23%]'> <img src="./images/10.png" alt="img" className='' />  </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="block">
-                        <div class="mr-2 ml-2 mb-4"> <img src="./images/5.png" alt="img" className='w-full' /> </div>
-                        <div class="mr-2 ml-2 mb-4"> <img src="./images/11.png" alt="img" className='w-full' /> </div>
+                <div className="block">
+                        <div className="mr-2 ml-2 mb-4"> <img src="./images/5.png" alt="img" className='w-full' /> </div>
+                        <div className="mr-2 ml-2 mb-4"> <img src="./images/11.png" alt="img" className='w-full' /> </div>
                 </div>
                 {/* border-2 border-green-500 */}
             </div>
