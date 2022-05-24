@@ -44,10 +44,10 @@ const About = () => {
       </div>
 
       <div className="py-10 grid grid-cols-1 gap-5 container mx-auto text-justify">
-        <div className="bg-[#061357] overflow-hidden shadow-lg md:w-full mx-auto border-2 px-2 sm:px-6 py-10 rounded-md">
+        <div className="bg-[#061357] overflow-hidden shadow-lg md:w-full mx-auto border-2 px-2 sm:px-6 pb-10 rounded-md">
           <div className="px-6 py-4">
-          <div className="pb-4">
-            <div className="font-bold text-md mb-2 text-white text-2xl font-inter"> <img src="./images/mission.png" alt="img" className='mx-auto'/> </div>  
+          <div className="">
+            <div className="font-bold text-md text-white text-2xl font-inter"> <img src="./images/mission.png" alt="img" className='mx-auto'/> </div>  
           </div>
             <p className="text-white font-normal text-sm sm:text-base font-montserrat">
             Our mission is to provide quality education throughout all sets of the economy which is why we did not want the price to be a factor for which individuals would hesitate in attaining education in the respective domains.We believe in growing together which is why we also have our learning community where students can raise discussion related to technical questions and find the solutions to their problems.
