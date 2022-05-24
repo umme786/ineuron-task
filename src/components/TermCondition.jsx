@@ -4,6 +4,7 @@ const TermCondition = () => {
   return (
     <div>
           <div className='w-[80%] mx-auto font-montserrat text-justify'>
+          {/* <div className='container mx-auto font-montserrat text-justify px-6'> */}        
     <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-[#061357] mb-10 font-inter'> Terms and Conditions of Use </h2>
     <div className='font-medium'>
      <div className='mt-10 mb-6'>

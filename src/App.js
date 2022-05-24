@@ -4,17 +4,16 @@ import Courses from "./components/Courses";
 import Products from "./components/Products";
 import HallOfFame from "./components/HallOfFame";
 import Mentors from "./components/Mentors";
-// data 
-import data from './data/data.json'
-//component
-import Count from './component/Count';
+// count
+import data from './components/CountData.json'
+import Count from './components/Count';
+
 import JobAssistance from "./components/JobAssistance";
 import JobGuarantee from "./components/JobGuarantee";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermCondition from "./components/TermCondition";
-import Faq from "./components/Faq";
-
-
+import Accordion from './componentsFAQ/Accordion';
+import About from './components/About';
 
 function App() {
   return (
@@ -34,9 +33,10 @@ function App() {
     <JobGuarantee />
     <PrivacyPolicy />
     <TermCondition />
-    <Faq />
+   
+    <About />
 
-      {/* <Count /> */}
+    <Accordion />
    </>
   );
 }
